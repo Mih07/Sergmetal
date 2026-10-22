@@ -67,7 +67,7 @@ function Header() {
             className="collapse navbar-collapse"
             id="menuPrincipal"
             style={{
-              backgroundColor: "#222222",
+              
               borderRadius: "8px",
               padding: "12px",
               marginTop: "12px",
