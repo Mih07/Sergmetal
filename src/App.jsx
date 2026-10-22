@@ -7,6 +7,7 @@ import Sobre from "./components/Sobre";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer"
 import Segmentos from "./components/Segmentos";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -21,8 +22,10 @@ function App() {
         <Diferenciais />
         <Projetos />
         <CTA />
-        <Footer />
+        
       </main>
+      <Footer />
+      <Analytics />
     </>
   );
 }
