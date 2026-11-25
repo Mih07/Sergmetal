@@ -1,15 +1,16 @@
+import açoInox from "../assets/tubulacao-pecas-em-aco-inox.jpg";
+import estruturasMetalicas from "../assets/estrutura-metalica.jpg";
+
 const projetos = [
   {
     titulo: "Soluções em Aço Inox",
     categoria: "Fabricação em metal",
-    imagem:
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=900&q=80",
+    imagem: açoInox,
   },
   {
     titulo: "Estruturas Metálicas",
     categoria: "Estruturas industriais",
-    imagem:
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80",
+    imagem: estruturasMetalicas,
   },
   {
     titulo: "Projetos sob Medida",
@@ -158,17 +159,6 @@ function Projetos() {
           ))}
         </div>
 
-        {/* Aviso provisório */}
-        <p
-          className="text-center mt-4 mb-0"
-          style={{
-            color: "#777777",
-            fontSize: "0.85rem",
-          }}
-        >
-          Imagens ilustrativas — galeria provisória para
-          apresentação da estrutura da página.
-        </p>
 
       </div>
     </section>

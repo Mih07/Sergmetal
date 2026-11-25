@@ -1,18 +1,24 @@
 function Segmentos() {
   const segmentos = [
-    {
-      icone: "bi-clipboard2-pulse",
-      titulo: "Setor Alimentício",
-      descricao:
-        "Soluções em aço inox e estruturas metálicas para atender às necessidades de empresas do setor alimentício.",
-    },
-    {
-      icone: "bi-recycle",
-      titulo: "Setor de Reciclagem",
-      descricao:
-        "Soluções metálicas para empresas de reciclagem, considerando as necessidades de cada projeto.",
-    },
-  ];
+  {
+    icone: "bi-clipboard2-pulse",
+    titulo: "Setor Alimentício",
+    descricao:
+      "Soluções em aço inox e estruturas metálicas para atender às necessidades de empresas do setor alimentício.",
+  },
+  {
+    icone: "bi-recycle",
+    titulo: "Setor de Reciclagem",
+    descricao:
+      "Soluções metálicas para empresas de reciclagem, considerando as necessidades de cada projeto.",
+  },
+  {
+    icone: "bi-gear-wide-connected",
+    titulo: "Setor Industrial",
+    descricao:
+      "Soluções em estruturas metálicas, fabricação e serviços para diferentes segmentos industriais.",
+  },
+];
 
   return (
     <section

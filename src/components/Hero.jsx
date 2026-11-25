@@ -1,4 +1,5 @@
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/hero-industrial.jpg";
+
 
 function Hero() {
   const whatsappNumber = "5511974603651";

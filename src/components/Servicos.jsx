@@ -1,36 +1,39 @@
+import açoInox from "../assets/grades-protecao-industriais.jpg";
+import estruturasMetalicas from "../assets/estrutura-metalica.jpg";
+import mesasBancadas from "../assets/mesa-bancada-em-inox.jpg";
+import tubulacaoPecas from "../assets/tubulacao-pecas-em-aco-inox.jpg";
+import mezanino from "../assets/mezanino.jpg";
+
 const servicos = [
   {
     titulo: "Aço Inox",
     descricao:
       "Soluções em aço inox para diferentes aplicações, com foco em resistência e durabilidade.",
-    imagem: "https://via.placeholder.com/300x200.png?text=Aço+Inox",
+    imagem: açoInox,
   },
   {
     titulo: "Estruturas Metálicas",
     descricao:
       "Estruturas metálicas desenvolvidas para atender às necessidades de cada projeto.",
-    imagem:
-      "https://via.placeholder.com/300x200.png?text=Estruturas+Metálicas",
+    imagem: estruturasMetalicas,
   },
   {
     titulo: "Mesas e Bancadas",
     descricao:
       "Mesas e bancadas em aço inox para ambientes industriais e comerciais.",
-    imagem:
-      "https://via.placeholder.com/300x200.png?text=Mesas+e+Bancadas",
+    imagem: mesasBancadas,
   },
   {
-    titulo: "Painéis Elétricos",
+    titulo: "Tubulação e peças em aço inox",
     descricao:
-      "Soluções em painéis elétricos sob medida para diferentes aplicações.",
-    imagem:
-      "https://via.placeholder.com/300x200.png?text=Painéis+Elétricos",
+      "Tubulação e peças em aço inox para sistemas industriais e comerciais.",
+    imagem: tubulacaoPecas,
   },
   {
     titulo: "Mezaninos",
     descricao:
       "Estruturas para aproveitamento de espaços em ambientes industriais e comerciais.",
-    imagem: "https://via.placeholder.com/300x200.png?text=Mezaninos",
+    imagem: mezanino,
   },
 ];
 

@@ -133,6 +133,36 @@ function Footer() {
             © {new Date().getFullYear()} SERGMETAL SERVIÇOS INDUSTRIAL LTDA.
             Todos os direitos reservados.
           </p>
+
+          <p
+            className="mt-2 mb-0"
+            style={{
+              color: "#777777",
+              fontSize: "0.8rem",
+            }}
+          >
+            Desenvolvido por{" "}
+            <a
+              href="https://seusitesuacara.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#C6A15B",
+                textDecoration: "none",
+                fontWeight: "600",
+                transition: "color 0.3s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = "#FFFFFF";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = "#C6A15B";
+              }}
+            >
+              Seu site, sua cara
+            </a>
+            {" "} | Criação de sites profissionais
+          </p>
         </div>
       </div>
     </footer>
