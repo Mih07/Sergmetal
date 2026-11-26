@@ -1,3 +1,4 @@
+
 import açoInox from "../assets/grades-protecao-industriais.jpg";
 import estruturasMetalicas from "../assets/estrutura-metalica.jpg";
 import mesasBancadas from "../assets/mesa-bancada-em-inox.jpg";
@@ -6,34 +7,39 @@ import mezanino from "../assets/mezanino.jpg";
 
 const servicos = [
   {
-    titulo: "Aço Inox",
+    titulo: "Grades de Proteção Industriais",
     descricao:
-      "Soluções em aço inox para diferentes aplicações, com foco em resistência e durabilidade.",
+      "Fabricação de grades de proteção metálicas para aplicações industriais, desenvolvidas conforme as necessidades de cada ambiente e projeto.",
     imagem: açoInox,
+    alt: "Grades de proteção industriais fabricadas em metal",
   },
   {
     titulo: "Estruturas Metálicas",
     descricao:
-      "Estruturas metálicas desenvolvidas para atender às necessidades de cada projeto.",
+      "Estruturas metálicas para ambientes industriais e comerciais, com soluções desenvolvidas de acordo com as especificações de cada projeto.",
     imagem: estruturasMetalicas,
+    alt: "Estrutura metálica para aplicação industrial",
   },
   {
-    titulo: "Mesas e Bancadas",
+    titulo: "Mesas e Bancadas em Aço Inox",
     descricao:
-      "Mesas e bancadas em aço inox para ambientes industriais e comerciais.",
+      "Fabricação de mesas e bancadas em aço inox para ambientes industriais, comerciais e operações que necessitam de praticidade e resistência.",
     imagem: mesasBancadas,
+    alt: "Mesa e bancada fabricada em aço inox",
   },
   {
-    titulo: "Tubulação e peças em aço inox",
+    titulo: "Tubulações e Peças em Aço Inox",
     descricao:
-      "Tubulação e peças em aço inox para sistemas industriais e comerciais.",
+      "Soluções em tubulações e peças de aço inox para aplicações industriais, atendendo às características e necessidades de cada projeto.",
     imagem: tubulacaoPecas,
+    alt: "Tubulações e peças fabricadas em aço inox para uso industrial",
   },
   {
-    titulo: "Mezaninos",
+    titulo: "Mezaninos Metálicos",
     descricao:
-      "Estruturas para aproveitamento de espaços em ambientes industriais e comerciais.",
+      "Estruturas metálicas para criação e aproveitamento de espaços em ambientes industriais e comerciais, conforme as necessidades de cada instalação.",
     imagem: mezanino,
+    alt: "Mezanino metálico para aproveitamento de espaço industrial",
   },
 ];
 
@@ -63,7 +69,7 @@ function Servicos() {
               letterSpacing: "2px",
             }}
           >
-            O que fazemos
+            Soluções industriais
           </span>
 
           <h2
@@ -73,9 +79,9 @@ function Servicos() {
               fontSize: "clamp(2rem, 4vw, 3rem)",
             }}
           >
-            Nossos{" "}
+            Serviços em{" "}
             <span style={{ color: "#A9823D" }}>
-              serviços
+              aço inox e estruturas metálicas
             </span>
           </h2>
 
@@ -86,8 +92,9 @@ function Servicos() {
               fontSize: "1.05rem",
             }}
           >
-            Soluções em serralheria e estruturas metálicas
-            para atender às necessidades do seu negócio.
+            A SERGMETAL desenvolve soluções em serralheria industrial,
+            aço inox e estruturas metálicas para empresas dos segmentos
+            alimentício, de reciclagem e outras aplicações industriais.
           </p>
         </div>
 
@@ -133,7 +140,7 @@ function Servicos() {
                 >
                   <img
                     src={servico.imagem}
-                    alt={servico.titulo}
+                    alt={servico.alt}
                     className="w-100 h-100"
                     loading="lazy"
                     style={{

@@ -1,22 +1,26 @@
+
 import açoInox from "../assets/tubulacao-pecas-em-aco-inox.jpg";
 import estruturasMetalicas from "../assets/estrutura-metalica.jpg";
 
 const projetos = [
   {
     titulo: "Soluções em Aço Inox",
-    categoria: "Fabricação em metal",
+    categoria: "Fabricação em aço inox",
     imagem: açoInox,
+    alt: "Tubulações e peças fabricadas em aço inox para aplicações industriais",
   },
   {
     titulo: "Estruturas Metálicas",
     categoria: "Estruturas industriais",
     imagem: estruturasMetalicas,
+    alt: "Estrutura metálica utilizada em projetos e aplicações industriais",
   },
   {
     titulo: "Projetos sob Medida",
-    categoria: "Soluções industriais",
+    categoria: "Serralheria industrial",
     imagem:
       "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=900&q=80",
+    alt: "Ambiente industrial com equipamentos e soluções de fabricação metálica",
   },
 ];
 
@@ -24,6 +28,7 @@ function Projetos() {
   return (
     <section
       id="projetos"
+      aria-labelledby="titulo-projetos"
       className="py-5"
       style={{
         backgroundColor: "#F3F3F3",
@@ -50,15 +55,16 @@ function Projetos() {
           </span>
 
           <h2
+            id="titulo-projetos"
             className="fw-bold"
             style={{
               color: "#080808",
               fontSize: "clamp(2rem, 4vw, 3rem)",
             }}
           >
-            Conheça nossos{" "}
+            Conheça nossas{" "}
             <span style={{ color: "#A9823D" }}>
-              projetos
+              soluções industriais
             </span>
           </h2>
 
@@ -68,8 +74,9 @@ function Projetos() {
               lineHeight: "1.8",
             }}
           >
-            Conheça algumas das soluções em metal que fazem parte
-            do universo de atuação da SERGMETAL.
+            Conheça algumas das soluções em aço inox, estruturas metálicas
+            e fabricação de peças desenvolvidas para diferentes necessidades
+            industriais pela SERGMETAL. 
           </p>
         </div>
 
@@ -114,9 +121,10 @@ function Projetos() {
                 >
                   <img
                     src={projeto.imagem}
-                    alt={projeto.titulo}
+                    alt={projeto.alt}
                     className="w-100 h-100"
                     loading="lazy"
+                    decoding="async"
                     style={{
                       objectFit: "cover",
                       display: "block",
@@ -158,7 +166,6 @@ function Projetos() {
             </div>
           ))}
         </div>
-
 
       </div>
     </section>

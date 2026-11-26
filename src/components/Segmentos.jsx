@@ -1,28 +1,30 @@
+
 function Segmentos() {
   const segmentos = [
   {
     icone: "bi-clipboard2-pulse",
     titulo: "Setor Alimentício",
     descricao:
-      "Soluções em aço inox e estruturas metálicas para atender às necessidades de empresas do setor alimentício.",
+      "Soluções em aço inox, estruturas metálicas, mesas, bancadas e componentes para empresas do setor alimentício, desenvolvidas conforme as necessidades de cada projeto.",
   },
   {
     icone: "bi-recycle",
     titulo: "Setor de Reciclagem",
     descricao:
-      "Soluções metálicas para empresas de reciclagem, considerando as necessidades de cada projeto.",
+      "Fabricação de peças, estruturas metálicas e soluções em serralheria industrial para empresas de reciclagem, considerando as necessidades de cada operação.",
   },
   {
     icone: "bi-gear-wide-connected",
     titulo: "Setor Industrial",
     descricao:
-      "Soluções em estruturas metálicas, fabricação e serviços para diferentes segmentos industriais.",
+      "Soluções em estruturas metálicas, fabricação de peças, aço inox e serviços de serralheria industrial para diferentes aplicações e segmentos.",
   },
 ];
 
   return (
     <section
       id="segmentos"
+      aria-labelledby="titulo-segmentos"
       className="py-5"
       style={{ backgroundColor: "#ffffff", color: "#080808" }}
     >
@@ -40,6 +42,7 @@ function Segmentos() {
           </span>
 
           <h2
+            id="titulo-segmentos"
             className="fw-bold mb-3"
             style={{
               fontSize: "clamp(2rem, 4vw, 2.8rem)",
@@ -51,8 +54,10 @@ function Segmentos() {
           </h2>
 
           <p style={{ color: "#080808", lineHeight: "1.8" }}>
-            Atendemos empresas dos setores alimentício e de reciclagem,
-            desenvolvendo soluções de acordo com as necessidades de cada projeto.
+            A SERGMETAL desenvolve soluções em aço inox, estruturas metálicas
+            e serralheria industrial para empresas dos setores alimentício,
+            de reciclagem e outras aplicações industriais, atendendo Itupeva
+            e região.
           </p>
         </div>
 

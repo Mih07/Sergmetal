@@ -1,3 +1,4 @@
+
 function Sobre() {
   return (
     <section
@@ -6,11 +7,12 @@ function Sobre() {
       style={{
         backgroundColor: "#FFFFFF",
       }}
+      aria-labelledby="titulo-sobre"
     >
       <div className="container py-4">
         <div className="row align-items-center g-5">
 
-          {/* Conteúdo */}
+          {/* Conteúdo institucional */}
           <div className="col-12 col-lg-6">
             <span
               className="d-inline-block text-uppercase fw-bold mb-3"
@@ -24,6 +26,7 @@ function Sobre() {
             </span>
 
             <h2
+              id="titulo-sobre"
               className="fw-bold mb-4"
               style={{
                 color: "#080808",
@@ -31,10 +34,11 @@ function Sobre() {
                 lineHeight: "1.2",
               }}
             >
-              Soluções em metal pensadas para{" "}
+              Soluções em{" "}
               <span style={{ color: "#A9823D" }}>
-                cada necessidade
-              </span>
+                aço inox e estruturas metálicas
+              </span>{" "}
+              para empresas
             </h2>
 
             <p
@@ -44,9 +48,23 @@ function Sobre() {
                 fontSize: "1rem",
               }}
             >
-              A SERGMETAL atua com soluções em aço inox e estruturas
-              metálicas, atendendo demandas de empresas dos segmentos
-              alimentício e de reciclagem.
+              A SERGMETAL atua na fabricação de soluções em aço inox,
+              estruturas metálicas e peças sob medida, atendendo às
+              necessidades de empresas dos segmentos alimentício,
+              de reciclagem e de diferentes aplicações industriais.
+            </p>
+
+            <p
+              className="mb-3 text-secondary"
+              style={{
+                lineHeight: "1.9",
+                fontSize: "1rem",
+              }}
+            >
+              Desenvolvemos projetos de serralheria industrial,
+              incluindo estruturas metálicas, mesas, bancadas,
+              tubulações, peças em aço inox, grades de proteção
+              e mezaninos, conforme as especificações de cada demanda.
             </p>
 
             <p
@@ -56,10 +74,10 @@ function Sobre() {
                 fontSize: "1rem",
               }}
             >
-              Cada projeto apresenta necessidades específicas.
-              Por isso, buscamos compreender cada demanda e valorizar
-              a qualidade do trabalho e a honestidade no relacionamento
-              com nossos clientes.
+              Nosso trabalho é pautado pela qualidade e honestidade,
+              buscando compreender as necessidades de cada cliente
+              e oferecer soluções adequadas para seu projeto.
+              Atendemos Itupeva, região e interior de São Paulo.
             </p>
 
             <a
@@ -72,11 +90,11 @@ function Sobre() {
                 borderRadius: "6px",
               }}
             >
-              Fale com a SERGMETAL
+              Solicitar orçamento
             </a>
           </div>
 
-          {/* Imagem ilustrativa */}
+          {/* Imagem institucional */}
           <div className="col-12 col-lg-6">
             <div
               style={{
@@ -94,13 +112,15 @@ function Sobre() {
                   backgroundColor: "#C6A15B",
                   borderRadius: "8px",
                 }}
+                aria-hidden="true"
               ></div>
 
               <img
                 src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=80"
-                alt="Ambiente de trabalho industrial"
+                alt="Ambiente industrial de fabricação e trabalho com estruturas metálicas"
                 className="img-fluid w-100"
                 loading="lazy"
+                decoding="async"
                 style={{
                   position: "relative",
                   height: "380px",

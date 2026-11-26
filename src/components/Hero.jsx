@@ -1,11 +1,11 @@
-import heroImage from "../assets/hero-industrial.jpg";
 
+import heroImage from "../assets/hero-industrial.jpg";
 
 function Hero() {
   const whatsappNumber = "5511974603651";
 
   const mensagem = encodeURIComponent(
-    "Olá! Vim pelo site da Sergmetal e gostaria de solicitar um orçamento."
+    "Olá! Vim pelo site da SERGMETAL e gostaria de solicitar um orçamento para um projeto industrial."
   );
 
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${mensagem}`;
@@ -46,10 +46,10 @@ function Hero() {
                 letterSpacing: "2px",
               }}
             >
-              Serralheria e soluções em metal
+              Serralheria industrial
             </span>
 
-            {/* Título principal */}
+            {/* Título principal - H1 */}
             <h1
               className="fw-bold mb-4"
               style={{
@@ -58,7 +58,7 @@ function Hero() {
                 lineHeight: "1.15",
               }}
             >
-              Soluções em{" "}
+              Serralheria industrial,{" "}
               <span style={{ color: "#C6A15B" }}>
                 aço inox e estruturas metálicas
               </span>
@@ -74,8 +74,10 @@ function Hero() {
                 maxWidth: "600px",
               }}
             >
-              Soluções sob medida para empresas dos segmentos
-              alimentício e de reciclagem.
+              Fabricação de estruturas metálicas, peças e soluções
+              em aço inox sob medida para empresas dos segmentos
+              alimentício, de reciclagem e industrial.
+              Atendimento em Itupeva e região.
             </p>
 
             {/* Botão de orçamento */}

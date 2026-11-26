@@ -1,3 +1,4 @@
+
 function Diferenciais() {
   const diferenciais = [
     {
@@ -5,20 +6,21 @@ function Diferenciais() {
       titulo: "Qualidade que faz a diferença",
       icone: "bi bi-gear-wide-connected",
       descricao:
-        "Cada projeto tem suas particularidades e exige atenção às necessidades de quem contrata. Nosso compromisso é buscar soluções adequadas para cada demanda, valorizando um trabalho bem executado e que atenda às expectativas do cliente.",
+        "Cada projeto de serralheria industrial possui necessidades específicas. Buscamos desenvolver soluções em aço inox, estruturas metálicas e fabricação de peças, valorizando a qualidade do serviço executado e as necessidades de cada cliente.",
     },
     {
       numero: "02",
       titulo: "Honestidade que gera confiança",
       icone: " bi-people",
       descricao:
-        "Acreditamos que uma boa parceria começa com transparência. Por isso, valorizamos o diálogo, o alinhamento das expectativas e uma relação honesta com cada cliente, desde o primeiro contato até a condução do serviço.",
+        "Acreditamos que uma parceria sólida começa com transparência e honestidade. Valorizamos o diálogo, o alinhamento das expectativas e o compromisso com cada cliente, desde o orçamento até a execução do projeto.",
     },
   ];
 
   return (
     <section
       id="diferenciais"
+      aria-labelledby="titulo-diferenciais"
       className="py-5"
       style={{
         backgroundColor: "#080808",
@@ -46,6 +48,7 @@ function Diferenciais() {
           </span>
 
           <h2
+            id="titulo-diferenciais"
             className="fw-bold"
             style={{
               color: "#FFFFFF",
@@ -65,8 +68,9 @@ function Diferenciais() {
               lineHeight: "1.8",
             }}
           >
-            Valorizamos a qualidade dos serviços e a honestidade
-            em cada relacionamento.
+            Qualidade na fabricação de soluções metálicas, transparência
+            nos serviços de serralheria industrial e honestidade em cada
+            relacionamento com nossos clientes.
           </p>
         </div>
 
